@@ -1,7 +1,6 @@
 .jumbotron {
     position:relative;
     overflow:hidden;
-    margin-top: 5vh;
 }
   
 .jumbotron .container {
@@ -29,4 +28,12 @@ img.blur {
     -webkit-filter: blur(4px);
     filter: blur(4px);
     filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
+
+.navbar-custom {
+    background-color: #e3f2fd;
+}
+
+.section {
+    margin: 5vh;
 }

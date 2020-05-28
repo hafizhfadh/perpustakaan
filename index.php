@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <?php include('./config/config.php') ?>
 
 <head>
@@ -16,52 +17,58 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom shadow">
         <a class="navbar-brand" href="#">
             <img src="./img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-            
-            <div class="d-none d-sm-block d-md-none"><?= APP_NAME ?></div>
+            <?= APP_NAME ?>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <form class="form-inline my-2 my-lg-0 mr-auto" action="https://www.google.com/search?tbm=bks&q=buku+sejarah">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav ml-auto ">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Tentang Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kontak Kami</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
+                        Login/Register
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Login</a>
+                        <a class="dropdown-item" href="#">Register</a>
                     </div>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="jumbotron jumbotron-fluid bg-dark">
-        <div class="jumbotron-background">
-            <img src="https://source.unsplash.com/1600x900/?books,library" class="blur">
+    <div class="section">
+        <div class="jumbotron jumbotron-fluid bg-dark">
+            <div class="jumbotron-background">
+                <img src="https://source.unsplash.com/1600x900/?books,library" class="blur">
+            </div>
+            <div class="container text-white">
+                <h1 class="display-4"><?= APP_NAME ?></h1>
+                <p class="lead"><?= APP_DESCRIPTION ?></p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </div>
+            <!-- /.container -->
         </div>
-        <div class="container text-white">
-            <h1 class="display-4"><?= APP_NAME ?></h1>
-            <p class="lead"><?= APP_DESCRIPTION ?></p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </div>
-        <!-- /.container -->
+        <!-- /.jumbotron -->
     </div>
-    <!-- /.jumbotron -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
