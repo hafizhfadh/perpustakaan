@@ -12,14 +12,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleaboutus.css">
     <title><?= APP_NAME ?></title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom shadow">
         <a class="navbar-brand" href="#">
-            <img src="./img/logo1.png" width="50" height="50">
+            <img src="./img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
             <?= APP_NAME ?>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,52 +54,83 @@
         </div>
     </nav>
 
-    <div class="section bg-warning destroy-5">
-        <div class="container my-1">
-            <div class="font-weight-bolder text-center">WELCOME</div>
-        </div>
-    </div>
+    <div class="about-section">
+  <h1>About Us</h1>
+  <h3>Perpustakaan merupakan jantungnya dunia pendidikan karena berbagai macam 
+    informasi bisa kita dapatkan di perpustakaan.</h3>
+  <p>Perpustakaan yang terorganisasi secara baik dan sistematis, secara langsung ataupun 
+    tidak langsung dapat memberikan kemudahan bagi proses belajar mengajar di sekolah tempat perpustakaan tersebut berada.</p>
+</div>
 
-    <div class="section">
-        <div class="jumbotron jumbotron-fluid bg-dark">
-            <div class="jumbotron-background">
-                <img src="https://source.unsplash.com/1600x900/?books,library" class="blur">
-            </div>
-            <div class="container text-white">
-                <h1 class="display-4"><?= APP_NAME ?></h1>
-                <p class="lead"><?= APP_DESCRIPTION ?></p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- /.jumbotron -->
+  <h2 style="text-align:center">Our Team</h2>
+  <div class="row">
+  <div class="col-4 py-2">
+    <div class="card shadow" style="width: 18rem; ">
+      <img src="img/hafz.jpeg" alt="hafz" style="width:100%">
+      <div class="container">
+        <h3>Hafidz Fazrurahman</h3>
+        <p class="title">Team 1</p>
+      </div>
     </div>
+  </div>
 
-    <div class="section">
-        <div class="jumbotron jumbotron-fluid bg-dark">
-            <div class="jumbotron-background">
-                <img src="https://source.unsplash.com/1600x900/?books,library" class="blur">
-            </div>
-            <div class="container text-white">
-                <h1 class="display-4"><?= APP_NAME ?></h1>
-                <p class="lead"><?= APP_DESCRIPTION ?></p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- /.jumbotron -->
+  <div class="col-4 py-2">
+    <div class="card shadow" style="width : 18rem; ">
+      <img src="img/yaya.jpeg" alt="yahya" style="width:100%">
+      <div class="container">
+        <h3>Yahya Aulia Loen</h3>
+        <p class="title">Team 2</p>
+      </div>
     </div>
+  </div>
 
+   <div class="col-4 py-2">
+    <div class="card shadow" style="width : 18rem; ">
+      <img src="img/yaya.jpeg" alt="Yahya" style="width:100%">
+      <div class="container">
+        <h3>Samsul</h3>
+        <p class="title">Team 2</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-4 py-2">
+    <div class="card shadow" style="width : 18rem; ">
+      <img src="img/yute.jpeg" alt="yute" style="width:100%">
+      <div class="container">
+        <h2>Yute Indah Trisulin</h2>
+        <p class="title">Team 4</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-4 py-2">
+    <div class="card shadow" style="width : 18rem; ">
+      <img src="gbr/sakura.jpg" alt="intan" style="width:100%">
+      <div class="container">
+        <h2>Intan Yesika Winata</h2>
+        <p class="title">Team 5</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-4 py-2">
+    <div class="card shadow" style="width : 18rem; ">
+      <img src="img/fika.jpeg" alt="fika" style="width:75%">
+      <div class="container">
+        <h2>Raffika Aulia Nisa</h2>
+        <p class="title">Designer</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="./js/main.js"></script>
 </body>
 
 </html>
