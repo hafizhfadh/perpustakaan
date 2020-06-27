@@ -12,11 +12,16 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<<<<<<< HEAD
     <link rel="stylesheet" href="css/styleaboutus.css">
+=======
+    <link rel="stylesheet" href="css/style.css">
+>>>>>>> 060ea38c2252677bdbad95174ef3fee069facbf9
     <title><?= APP_NAME ?></title>
 </head>
 
 <body>
+<<<<<<< HEAD
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom shadow">
         <a class="navbar-brand" href="#">
             <img src="./img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -126,6 +131,49 @@
   </div>
 
     
+=======
+    <?php include 'component/header.php' ?>
+
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-4 pb-2">
+                <div class="card shadow" style="width: 18rem;">
+                    <img src="https://image.freepik.com/free-photo/interior-poster-mock-up-with-plant-pot-flower-room-with-white-wall_41470-1513.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://image.freepik.com/free-photo/interior-poster-mock-up-with-plant-pot-flower-room-with-white-wall_41470-1513.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://image.freepik.com/free-photo/interior-poster-mock-up-with-plant-pot-flower-room-with-white-wall_41470-1513.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://image.freepik.com/free-photo/interior-poster-mock-up-with-plant-pot-flower-room-with-white-wall_41470-1513.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+>>>>>>> 060ea38c2252677bdbad95174ef3fee069facbf9
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

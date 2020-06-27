@@ -17,6 +17,7 @@
 </head>
 
 <body>
+<<<<<<< HEAD
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom shadow">
         <a class="navbar-brand" href="#">
             <img src="./img/logo1.png" width="50" height="50">
@@ -58,6 +59,14 @@
         <div class="container my-1">
             <div class="font-weight-bolder text-center">WELCOME</div>
         </div>
+=======
+<?php include 'component/header.php' ?>
+
+    <div class="section bg-warning destroy-5">
+        <div class="container my-1">
+            <div class="font-weight-bolder text-center">WELCOME</div>
+        </div>
+>>>>>>> 060ea38c2252677bdbad95174ef3fee069facbf9
     </div>
 
     <div class="section">
