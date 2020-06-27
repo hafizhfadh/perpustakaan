@@ -17,12 +17,56 @@
 </head>
 
 <body>
+<<<<<<< HEAD
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom shadow">
+        <a class="navbar-brand" href="#">
+            <img src="./img/logo1.png" width="50" height="50">
+            <?= APP_NAME ?>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="form-inline my-2 my-lg-0 mr-auto" action="https://www.google.com/search?tbm=bks&q=buku+sejarah">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/index.php">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about-us.php">Tentang Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kontak Kami</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Login/Register
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Login</a>
+                        <a class="dropdown-item" href="#">Register</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="section bg-warning destroy-5">
+        <div class="container my-1">
+            <div class="font-weight-bolder text-center">WELCOME</div>
+        </div>
+=======
 <?php include 'component/header.php' ?>
 
     <div class="section bg-warning destroy-5">
         <div class="container my-1">
             <div class="font-weight-bolder text-center">WELCOME</div>
         </div>
+>>>>>>> 060ea38c2252677bdbad95174ef3fee069facbf9
     </div>
 
     <div class="section">
